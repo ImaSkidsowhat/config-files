@@ -98,7 +98,7 @@ bindsym $mod+Shift+9 move container to workspace $wk9
 bindsym $mod+Shift+0 move container to workspace $wk10
 
 #moving firefox to workspace2
-assign [class="Firefox-esr"] $wk2
+assign [class="firefox"] $wk2
 assign [class="obsidian"] $wk10
 
 # reload the configuration file
@@ -173,5 +173,3 @@ bindsym $mod+Ctrl+Shift+Left resize grow width 10 px or 10 ppt
 # screenshot
 bindsym $mod+P exec flameshot gui
 
-#Autostart Firefox on workspace firefox or $wk2
-exec firefox
